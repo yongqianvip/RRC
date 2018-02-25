@@ -22,7 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DFD193C21E87CC9298DE9032 /* Pods_RRC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17C3D0221DCCF385F5CBC31 /* Pods_RRC_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,15 +57,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71DAD14884ED0119C3461ABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71DAD14884ED0119C3461ABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8AF716CE8276FC44A10EF97A /* Pods-RRC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RRC_Tests/Pods-RRC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		992745D7B1A8D02742FF8D44 /* RRC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RRC.podspec; path = ../RRC.podspec; sourceTree = "<group>"; };
+		992745D7B1A8D02742FF8D44 /* RRC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RRC.podspec; path = ../RRC.podspec; sourceTree = "<group>"; };
 		A17C3D0221DCCF385F5CBC31 /* Pods_RRC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A655DF18E762A599F2827504 /* Pods-RRC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RRC_Example/Pods-RRC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA1870C0E63ED698CFFBAB2D /* Pods-RRC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RRC_Example/Pods-RRC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C4E2F1D6C9EC6B7C0764A5CF /* Pods-RRC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RRC_Tests/Pods-RRC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE01429A8B2A93BC54FFFFF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE01429A8B2A93BC54FFFFF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +132,6 @@
 			children = (
 				6003F59C195388D20070C39A /* RRCAppDelegate.h */,
 				6003F59D195388D20070C39A /* RRCAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RRCViewController.h */,
 				6003F5A6195388D20070C39A /* RRCViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -279,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,

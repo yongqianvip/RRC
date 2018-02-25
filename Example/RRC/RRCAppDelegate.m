@@ -7,12 +7,17 @@
 //
 
 #import "RRCAppDelegate.h"
+#import "RRCViewController.h"
 
 @implementation RRCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    RRCViewController *vc = [[RRCViewController alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
