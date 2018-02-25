@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B53A9872042FAEF00019CD5 /* RRCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53A9862042FAEF00019CD5 /* RRCLoginViewController.m */; };
 		5CF71ED74BC90A230FEC22E7 /* Pods_RRC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593874135B3EBEA7018D9584 /* Pods_RRC_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		593874135B3EBEA7018D9584 /* Pods_RRC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B53A9852042FAEF00019CD5 /* RRCLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RRCLoginViewController.h; path = ../../RRC/Classes/RRCLoginViewController.h; sourceTree = "<group>"; };
+		5B53A9862042FAEF00019CD5 /* RRCLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RRCLoginViewController.m; path = ../../RRC/Classes/RRCLoginViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RRC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 			children = (
 				6003F59C195388D20070C39A /* RRCAppDelegate.h */,
 				6003F59D195388D20070C39A /* RRCAppDelegate.m */,
+				5B53A9852042FAEF00019CD5 /* RRCLoginViewController.h */,
+				5B53A9862042FAEF00019CD5 /* RRCLoginViewController.m */,
 				6003F5A5195388D20070C39A /* RRCViewController.h */,
 				6003F5A6195388D20070C39A /* RRCViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -404,6 +409,7 @@
 			files = (
 				6003F59E195388D20070C39A /* RRCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RRCViewController.m in Sources */,
+				5B53A9872042FAEF00019CD5 /* RRCLoginViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
