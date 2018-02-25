@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RRC_Example' do
+  pod 'RRC', :path => '../'
+
+  target 'RRC_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
